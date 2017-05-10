@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "UserReg";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="/Scripts/form-validation.js"></script>
+<link rel="stylesheet" href="/Content/userRegStyle.css" />
+
+
+@*<h2>User Registration</h2>
+
+<form>
+    Username: <input type="text" name="username" /><br/>
+    Password: <input type="password" name="password" /><br/>
+    Email:    <input type="email" name="email"/><br/>
+    <input type="submit" formaction="/Home/Submit"/><br/>
+
+</form>*@
+
+<div class="container">
+    <h2>Registration</h2>
+    <form action="" name="registration">
+
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" id="firstname" placeholder="John" /><br/>
+
+        <label for="lastname">Last Name</label>
+        <input type="text" name="lastname" id="lastname" placeholder="Doe" /><br/>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="john@doe.com" /><br/>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" name="phone" id="phone" placeholder="123-456-7890" /><br />
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;" /><br/>
+
+        <button type="submit" formaction="/Home/Submit">Register</button>
+
+    </form>
+</div>
+
+
