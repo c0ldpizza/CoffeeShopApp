@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Data.SqlClient;
 
 using ASPlab20.Models;
 
@@ -32,12 +33,6 @@ namespace ASPlab20.Controllers
         public ActionResult UserReg()
         {
             return View();
-        }
-        
-        //Takes in model, passes model to view
-        public ActionResult AddUser(UserInfo NewUser)
-        {
-            return View(NewUser);
         }
 
         public ActionResult Order()

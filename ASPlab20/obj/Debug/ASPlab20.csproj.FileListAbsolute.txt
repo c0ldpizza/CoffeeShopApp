@@ -51,3 +51,7 @@ C:\Users\Charlie\Documents\Visual Studio 2015\Projects\ASPlab20\ASPlab20\bin\New
 C:\Users\Charlie\Documents\Visual Studio 2015\Projects\ASPlab20\ASPlab20\obj\Debug\ASPlab20.csprojResolveAssemblyReference.cache
 C:\Users\Charlie\Documents\Visual Studio 2015\Projects\ASPlab20\ASPlab20\obj\Debug\ASPlab20.dll
 C:\Users\Charlie\Documents\Visual Studio 2015\Projects\ASPlab20\ASPlab20\obj\Debug\ASPlab20.pdb
+C:\Users\Charlie\Documents\Visual Studio 2015\Projects\ASPlab20\ASPlab20\bin\EntityFramework.dll
+C:\Users\Charlie\Documents\Visual Studio 2015\Projects\ASPlab20\ASPlab20\bin\EntityFramework.SqlServer.dll
+C:\Users\Charlie\Documents\Visual Studio 2015\Projects\ASPlab20\ASPlab20\bin\EntityFramework.xml
+C:\Users\Charlie\Documents\Visual Studio 2015\Projects\ASPlab20\ASPlab20\bin\EntityFramework.SqlServer.xml
