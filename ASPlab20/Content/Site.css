@@ -25,12 +25,19 @@ textarea {
 
 .password{
     width: 100px;
-    height: 20px;
+    height: 14px;
     background-color: gray;
 }
 
 .cart{
     background-color: lightblue
+}
+
+.a {
+  display: table-row;
+}
+.a div {
+  display: table-cell;
 }
 
 

@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+using ASPlab20.Models;
+
 namespace ASPlab20.Controllers
 {
     public class HomeController : Controller
@@ -31,15 +33,11 @@ namespace ASPlab20.Controllers
         {
             return View();
         }
-
-        public ActionResult Submit(string firstname, string lastname, string password, string phone, string email)
+        
+        //Takes in model, passes model to view
+        public ActionResult AddUser(UserInfo NewUser)
         {
-            ViewBag.firstname = firstname;
-            ViewBag.lastname = lastname;
-            ViewBag.password = password;
-            ViewBag.phone = phone;
-            ViewBag.email = email;
-            return View();
+            return View(NewUser);
         }
 
         public ActionResult Order()

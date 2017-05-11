@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Submit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model ASPlab20.Models.UserInfo
+
+<h2>Hello @Model.UserFirstName</h2>
+
+<div class="top">
+    <div>Your Info:</div>
+    <div class='a'>
+        <div>First name: </div>
+        <div>@Model.UserFirstName</div>
+    </div>
+    <div class='a'>
+        <div>Last name: </div>
+        <div>@Model.UserLastName</div>
+    </div>
+    <div class='a'>
+        <div>Password: </div>
+        <div class="password"><span class="passwordText">@Model.UserPassword</span></div>
+    </div>
+    <div class='a'>
+        <div>Email: </div>
+        <div>@Model.UserEmail</div>
+    </div>
+    <div class='a'>
+        <div>Phone Number: </div>
+        <div>@Model.UserPhone</div>
+    </div>
+</div>
+
+
